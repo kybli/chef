@@ -21,8 +21,8 @@
 
         Meta Quest 2
 
-        macOS Monterey version 12.5
         Apple M2 MacBook Pro
+        macOS Monterey version 12.5
 
 6.  Project title:
 
