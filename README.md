@@ -15,6 +15,7 @@
 
 4.  Development platform(s):
 
+        Visual Studio Code version 1.74.1 (Universal)
         Unity version 2021.3.1711
 
 5.  Mobile platforms, OS versions, and device names (and server platform, if any):
