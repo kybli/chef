@@ -3,47 +3,95 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
 
-public class VideoController : MonoBehaviour
+public class videoController : MonoBehaviour
 {
-    [SerializeField] private Transform video;
+    Rigidbody rb;
     [SerializeField] private VideoPlayer videoPlayer;
-    [SerializeField] private float resizeSpeed = 0.5f;
-    [SerializeField] private float minSize = 0.1f;
-    [SerializeField] private float maxSize = 1f;
+
+    [SerializeField] private GameObject playIcon;
+    [SerializeField] private GameObject pauseIcon;
+    [SerializeField] private GameObject muteIcon;
+    [SerializeField] private GameObject unmuteIcon;
+    [SerializeField] private GameObject menu;
+    [SerializeField] private VideoClip[] videoClips;
+    [SerializeField] private GameObject showMenuIcon;
+    [SerializeField] private GameObject hideMenuIcon;
 
     // Start is called before the first frame update
     void Start()
     {
-        videoPlayer.Play();
+        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        rb.velocity = Vector3.zero;
+        rb.angularVelocity = Vector3.zero;
+    }
+
+    public void PlayAndPause()
+    {
+        if (videoPlayer.isPlaying)
         {
-            if (videoPlayer.isPlaying)
-            {
-                videoPlayer.Pause();
-            }
-            else
-            {
-                videoPlayer.Play();
-            }
+            videoPlayer.Pause();
+            playIcon.SetActive(true);
+            pauseIcon.SetActive(false);
         }
-
-        float sizeDelta = 0;
-
-        // Check for arrow key input and calculate the size delta
-        if (Input.GetKey(KeyCode.UpArrow)) {
-            sizeDelta += resizeSpeed * Time.deltaTime;
+        else
+        {
+            videoPlayer.Play();
+            playIcon.SetActive(false);
+            pauseIcon.SetActive(true);
         }
-        if (Input.GetKey(KeyCode.DownArrow)) {
-            sizeDelta -= resizeSpeed * Time.deltaTime;
-        }
+    }
 
-        // Resize the video
-        float newSize = Mathf.Clamp(video.localScale.x + sizeDelta, minSize, maxSize);
-        video.localScale = new Vector3(newSize, newSize, newSize);
+    public void forward()
+    {
+        videoPlayer.time += 10.0f;
+    }
+
+    public void backward()
+    {
+        videoPlayer.time -= 10.0f;
+    }
+
+    public void muteVideo()
+    {
+        if (videoPlayer.GetDirectAudioMute(0))
+        {
+            videoPlayer.SetDirectAudioMute(0, false);
+            muteIcon.SetActive(false);
+            unmuteIcon.SetActive(true);
+        }
+        else
+        {
+            videoPlayer.SetDirectAudioMute(0, true);
+            muteIcon.SetActive(true);
+            unmuteIcon.SetActive(false);
+        }
+    }
+
+    public void toggleMenu()
+    {
+        if (menu.activeSelf)
+        {
+            menu.SetActive(false);
+            showMenuIcon.SetActive(true);
+            hideMenuIcon.SetActive(false);
+        }
+        else
+        {
+            menu.SetActive(true);
+            showMenuIcon.SetActive(false);
+            hideMenuIcon.SetActive(true);
+        }
+    }
+
+    public void SwitchVideoClip(int index)
+    {
+        videoPlayer.Stop(); // Stop the current video clip
+        videoPlayer.clip = videoClips[index]; // Set the new video clip
+        videoPlayer.Play(); // Play the new video clip 
     }
 }
