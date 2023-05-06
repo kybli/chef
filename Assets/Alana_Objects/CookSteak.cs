@@ -23,18 +23,18 @@ public class CookSteak : MonoBehaviour
                 currentSteak.GetComponent<Collider>().bounds.Intersects(pan.GetComponent<Collider>().bounds) &&
                 pan.GetComponent<Collider>().bounds.Intersects(stove.GetComponent<Collider>().bounds))
             {
-                CookSteak();
+                cook();
             }
         }
     }
 
-    private void CookSteak()
+    private void cook()
     {
         Destroy(currentSteak);
         currentSteak = Instantiate(cookedSteakPrefab, transform.position, Quaternion.identity);
     }
 
-    public void StartCooking()
+    public void startCooking()
     {
         isCooking = true;
     }
