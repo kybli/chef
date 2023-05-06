@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class SteakCooking : MonoBehaviour
+public class CookSteak : MonoBehaviour
 {
     public GameObject rawSteakPrefab;
     public GameObject cookedSteakPrefab;
