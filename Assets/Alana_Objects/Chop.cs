@@ -5,19 +5,21 @@ using UnityEngine;
 public class Chop : MonoBehaviour
 {
     private int chopCount = 0;
+    public GameObject choppedFoodPrefab;
+
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Knife") && chopCount<=)
+        if (collision.gameObject.CompareTag("Knife") && chopCount< 5)
         {
-            // Create chopped food object at the same position and rotation as the original food object
             GameObject choppedFood = Instantiate(choppedFoodPrefab, transform.position, transform.rotation);
 
-            // Set the chopped food object as a child of the original food object's parent
             choppedFood.transform.SetParent(transform.parent);
 
-            // Destroy the original food object
+            // destroy  original food object
             Destroy(gameObject);
 
-            isChopped = true;
+            chopCount++;
+        }
+    }
 }
