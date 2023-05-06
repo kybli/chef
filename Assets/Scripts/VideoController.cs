@@ -94,4 +94,9 @@ public class VideoController : MonoBehaviour
         videoPlayer.clip = videoClips[index]; // Set the new video clip
         videoPlayer.Play(); // Play the new video clip 
     }
+
+    public void SetPlaybackSpeed(float speed)
+    {
+        videoPlayer.playbackSpeed = speed;
+    }
 }
