@@ -1,0 +1,344 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.21f1 (1b156197d683) revision 1774945'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 32632 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Unity\2021.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+E:/Unity/Kitchen
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+53881
+Successfully changed project path to: E:/Unity/Kitchen
+E:/Unity/Kitchen
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2420] Host "[IP] 192.168.12.202 [Port] 0 [Flags] 2 [Guid] 568143344 [EditorId] 568143344 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GR80CPO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [2420] Host "[IP] 192.168.12.202 [Port] 0 [Flags] 2 [Guid] 568143344 [EditorId] 568143344 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GR80CPO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 89.76 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.38 ms.
+Initialize engine version: 2021.3.21f1 (1b156197d683)
+[Subsystems] Discovering subsystems at path E:/Unity/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity/Kitchen/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
+    Vendor:   NVIDIA
+    VRAM:     10067 MB
+    Driver:   31.0.15.3129
+Initialize mono
+Mono path[0] = 'E:/Unity/2021.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/Unity/2021.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: E:/Unity/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: E:/Unity/2021.3.21f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.002099 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 209 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 84.90 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.772 seconds
+Domain Reload Profiling:
+	ReloadAssembly (772ms)
+		BeginReloadAssembly (69ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (630ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (96ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (470ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (276ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (85ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (73ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004711 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity\Kitchen\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity\Kitchen\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 84.69 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Package Manager log level set to [2]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in E:\Unity\Kitchen\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Unity\Kitchen\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <57a8ad0d1492436d8cfee9ba8e6618f8>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.234 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1235ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1061ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (316ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (569ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (85ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (364ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.55 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 4158 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (175.2 KB). Loaded Objects now: 4599.
+Memory consumption went from 151.1 MB to 150.9 MB.
+Total: 5.368100 ms (FindLiveObjects: 0.493900 ms CreateObjectMapping: 0.527600 ms MarkObjects: 4.162500 ms  DeleteObjects: 0.183000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 185203.387369 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances
+  artifactKey: Guid(a10cde81dfcdcc44382580edfff2f31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances using Guid(a10cde81dfcdcc44382580edfff2f31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883a34f1ed91acb1a56e96442f4eb55f') in 0.015789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Low Poly Furniture/Prefabs/Lamp/Vaselamp.prefab
+  artifactKey: Guid(196fafd1ecc6ad4499cfff0778350103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Prefabs/Lamp/Vaselamp.prefab using Guid(196fafd1ecc6ad4499cfff0778350103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272fd5e25feb2f0fed6feeff1afd2a1a') in 0.100726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 104.175744 seconds.
+  path: Assets/Low Poly Furniture/Prefabs/Table
+  artifactKey: Guid(bc8aa8ccfb9d9c04db126c8687d65b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Prefabs/Table using Guid(bc8aa8ccfb9d9c04db126c8687d65b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc4f5e6a327b0edbcfbac07cd6aa72e') in 0.004520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030222 seconds.
+  path: Assets/Low Poly Furniture/Prefabs/Table/Desk.prefab
+  artifactKey: Guid(e099759676405524095f6cb203121c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Prefabs/Table/Desk.prefab using Guid(e099759676405524095f6cb203121c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf01c42e96571785133a2f32837202d7') in 0.010977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Low Poly Furniture/Prefabs/Table/Table.prefab
+  artifactKey: Guid(e8fdddcfe6bbce444aff1122997577f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Prefabs/Table/Table.prefab using Guid(e8fdddcfe6bbce444aff1122997577f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c44c0fffc31c42ce8510d8119b10789') in 0.009198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Low Poly Furniture/Prefabs/Table/Round Table.prefab
+  artifactKey: Guid(0f76269ae1c485146a382146b683886b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Prefabs/Table/Round Table.prefab using Guid(0f76269ae1c485146a382146b683886b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea7b2f20a562c49ded0b1cca6a8e9b0f') in 0.009407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 429.452343 seconds.
+  path: Assets/Low Poly Furniture/Prefabs/Couch
+  artifactKey: Guid(f144bf2838651f7449dcd12eb1506e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Prefabs/Couch using Guid(f144bf2838651f7449dcd12eb1506e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ee389c47d27f67d64693637b3d47b3') in 0.004493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041557 seconds.
+  path: Assets/Low Poly Furniture/Prefabs/Couch/Couch.prefab
+  artifactKey: Guid(5c1b01bd0f7d5ab4b82f4611868cfcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Prefabs/Couch/Couch.prefab using Guid(5c1b01bd0f7d5ab4b82f4611868cfcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b675dc35649076c1a3e129753e0ba9ec') in 0.009713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.058514 seconds.
+  path: Assets/Low Poly Furniture/Prefabs/Chair
+  artifactKey: Guid(9df35073be8afcf4d8f25394415df3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Prefabs/Chair using Guid(9df35073be8afcf4d8f25394415df3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eab4658c3c268f5bf6bd590242740af') in 0.004538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029872 seconds.
+  path: Assets/Low Poly Furniture/Prefabs/Chair/Armchair.prefab
+  artifactKey: Guid(eb1fb4a146c78f24b804e376f03bba73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Prefabs/Chair/Armchair.prefab using Guid(eb1fb4a146c78f24b804e376f03bba73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb62dc33746f31659a7fc7c78553e72') in 0.008323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Low Poly Furniture/Prefabs/Chair/Thin Chair.prefab
+  artifactKey: Guid(3ca427402f0ef1347adc69f0ba78d0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Prefabs/Chair/Thin Chair.prefab using Guid(3ca427402f0ef1347adc69f0ba78d0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0ffd9be0f172169e49ca272df41b94') in 0.009028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3196.135914 seconds.
+  path: Assets/Low Poly Furniture/Prefabs/Bookshelf
+  artifactKey: Guid(3c6c0a32bebcd324fa8840e35eb31f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Prefabs/Bookshelf using Guid(3c6c0a32bebcd324fa8840e35eb31f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d2cf25bcef5238a071c3bc9e89f7bdf') in 0.004887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012847 seconds.
+  path: Assets/Low Poly Furniture/Prefabs/Bookshelf/L-Shaped Bookshelf.prefab
+  artifactKey: Guid(12fd54e30b8132746a81622b56e2c962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Prefabs/Bookshelf/L-Shaped Bookshelf.prefab using Guid(12fd54e30b8132746a81622b56e2c962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2eb032c80aa99b8e5a23ca0a13a4c67') in 0.020325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Low Poly Furniture/Prefabs/Bookshelf/Wall Bookshelf Small.prefab
+  artifactKey: Guid(70c65ab571624df4786d8004c0a570c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Prefabs/Bookshelf/Wall Bookshelf Small.prefab using Guid(70c65ab571624df4786d8004c0a570c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6bbae98724de2deb9a868199da71207') in 0.017473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.134048 seconds.
+  path: Assets/Low Poly Furniture/Prefabs/Case
+  artifactKey: Guid(40a8cb5140947024584ed28e2fe5f871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Prefabs/Case using Guid(40a8cb5140947024584ed28e2fe5f871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c5807747df7cf04d7944374896bc3e') in 0.004400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024872 seconds.
+  path: Assets/Low Poly Furniture/Prefabs/Case/Dark Case.prefab
+  artifactKey: Guid(39082e1a4c9dd8d4f9eb27b338daa3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Prefabs/Case/Dark Case.prefab using Guid(39082e1a4c9dd8d4f9eb27b338daa3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5a6fbe00285e48de61a24ec2cf77ee') in 0.016210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.548691 seconds.
+  path: Assets/Low Poly Furniture/Prefabs/Flower
+  artifactKey: Guid(2ed222fbfd496cc4a8ef84392b172f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Prefabs/Flower using Guid(2ed222fbfd496cc4a8ef84392b172f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75f5038a3bbbfcdca48a40a4cd7b3b0') in 0.004496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035749 seconds.
+  path: Assets/Low Poly Furniture/Prefabs/Flower/Blue Flower.prefab
+  artifactKey: Guid(519d9508d15314641a87cd2f280cf85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Prefabs/Flower/Blue Flower.prefab using Guid(519d9508d15314641a87cd2f280cf85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cacf062ecec55f854ccaf9b6f5e8f00') in 0.016819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009589 seconds.
+  path: Assets/Low Poly Furniture/Prefabs/Flower/Triple Cactus.prefab
+  artifactKey: Guid(a8544713cc514154098de947da0bb241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Prefabs/Flower/Triple Cactus.prefab using Guid(a8544713cc514154098de947da0bb241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef65d84cf51264deaa034123b30eced1') in 0.015902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Low Poly Furniture/Prefabs/Flower/Seedling.prefab
+  artifactKey: Guid(0752231b4a9803e498faacc841f4fab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Prefabs/Flower/Seedling.prefab using Guid(0752231b4a9803e498faacc841f4fab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2455eed1bc688881259bbb064f3bb7f') in 0.015403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.049825 seconds.
+  path: Assets/Low Poly Furniture/Prefabs/Nightstand/Short Nightstand.prefab
+  artifactKey: Guid(88d126b4de386094c87b9d404e6b833d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Prefabs/Nightstand/Short Nightstand.prefab using Guid(88d126b4de386094c87b9d404e6b833d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c1424b484bd15d1bc5f137f4b226990') in 0.014527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.167269 seconds.
+  path: Assets/Low Poly Furniture/Prefabs/Vase/Pink Vase.prefab
+  artifactKey: Guid(b2f6d75dfcfd9154ca36c2fc7880137c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Prefabs/Vase/Pink Vase.prefab using Guid(b2f6d75dfcfd9154ca36c2fc7880137c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a35cddad2f77aa7f29b985ea709c8c') in 0.016051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.758263 seconds.
+  path: Assets/Low Poly Furniture/Prefabs/Wardrobe/Twin Wardrobe.prefab
+  artifactKey: Guid(3203d32c7186a84419e35d7ce08429da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Prefabs/Wardrobe/Twin Wardrobe.prefab using Guid(3203d32c7186a84419e35d7ce08429da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de12ff737d5b366e4912bb6b5cac6ffc') in 0.014930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1315.193915 seconds.
+  path: Assets/Low Poly Furniture/Prefabs/Book/Blue Book.prefab
+  artifactKey: Guid(68fd4dcfbe5154d4e89043e3df713c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Prefabs/Book/Blue Book.prefab using Guid(68fd4dcfbe5154d4e89043e3df713c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03480b14991d1c3f0d5fdd46779c0a6') in 0.017587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Low Poly Furniture/Prefabs/Book/Purple Book.prefab
+  artifactKey: Guid(2bd5455a29123e64287c30781ba4c46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Furniture/Prefabs/Book/Purple Book.prefab using Guid(2bd5455a29123e64287c30781ba4c46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f09ae332bbc3e658e4fcb4cad4b1e46') in 0.015560 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
