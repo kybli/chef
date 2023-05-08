@@ -5,6 +5,7 @@ using UnityEngine;
 public class minimapPosition : MonoBehaviour
 {
     public Transform tracker;
+    public int offset = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,5 +17,10 @@ public class minimapPosition : MonoBehaviour
     {
         transform.position = tracker.position; // + (tracker.forward * -0.1f);
         transform.rotation = tracker.rotation * Quaternion.Euler(200f, 180f, 20f);
+
+        if(offset > 0) {
+            transform.position = transform.position + (tracker.forward * 0.06f) + (tracker.up * 0.04f);
+            transform.rotation = tracker.rotation * Quaternion.Euler(200f, 10f, -20f);
+        }
     }
 }
