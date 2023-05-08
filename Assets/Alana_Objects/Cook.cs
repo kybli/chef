@@ -37,7 +37,7 @@ public class Cook : MonoBehaviour
         Destroy(audioSource);
 
         // switch to the cooked prefab
-        Instantiate(newPrefab, transform.position, transform.rotation);
+        Instantiate(newPrefab, new Vector3 (1.203f, 1.296f, 1.859f), transform.rotation);
         Destroy(gameObject);
         
 
