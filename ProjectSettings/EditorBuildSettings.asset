@@ -5,9 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/Scenes/Kitchen.unity
+    guid: 0fb69fdec0003ea4caf7173b655bec63
+  - enabled: 0
+    path: Assets/Scenes/Video_Peize.unity
+    guid: e91e664e7b0ba624bab96d2b6e03832a
   - enabled: 1
     path: Assets/Peize_05022023/Video+TP.unity
-    guid: f651426132315754194ed5fa6bb73075
+    guid: 53ca0d3bf8df30e4dbbbe7ddf5912b33
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 18df2f2bdaf9a4c82814d68e5e1c96df, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 81bb92a6906a0421d9b27e30da2bcc2c, type: 2}

@@ -6,6 +6,7 @@ public class CookSteak : MonoBehaviour
     public GameObject cookedSteakPrefab;
     public GameObject stove;
     public GameObject pan;
+    
 
     private GameObject currentSteak;
     private bool isCooking = false;
