@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class wayfindingManager : MonoBehaviour
 {
-    public GameObject toGardenWFArrow1;
-    public GameObject toGardenWFArrow2;
-    public GameObject toGardenWFArrow3;
+    public GameObject toGardenWF;
+    public GameObject toKitchenWF;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,15 +19,20 @@ public class wayfindingManager : MonoBehaviour
     }
 
     public void ToggleToGarden() {
-        if(toGardenWFArrow1.activeSelf) {
-            toGardenWFArrow1.SetActive(false);
-            toGardenWFArrow2.SetActive(false);
-            toGardenWFArrow3.SetActive(false);
+        if(toGardenWF.activeSelf) {
+            toGardenWF.SetActive(false);
         }
         else {
-            toGardenWFArrow1.SetActive(true);
-            toGardenWFArrow2.SetActive(true);
-            toGardenWFArrow3.SetActive(true);
+            toGardenWF.SetActive(true);
+        }
+    }
+
+    public void ToggleToKitchen() {
+        if(toKitchenWF.activeSelf) {
+            toKitchenWF.SetActive(false);
+        }
+        else {
+            toKitchenWF.SetActive(true);
         }
     }
 }
