@@ -54,4 +54,9 @@
 13. Asset sources:
 
         FANTASTIC - Food Pack by Tidal Flask Studios
+        Trash Pack Low Poly Cartoon Pack by BlankfaceStanislav
+        Kitchen Appliance - Low Poly by Alstra Infinite
+        Post Processing Volume - Cybernetic Volume
+        
+        
         
