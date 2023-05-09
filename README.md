@@ -11,7 +11,7 @@
 
 3.  Date of submission:
 
-        [TBD]
+        May 9th 2023
 
 4.  Development platform(s):
 
@@ -33,11 +33,11 @@
 
 8.  Special Instructions, if any, for deploying your app:
 
-        [TBD]
+        None
 
 9.  Special instructions, if any, for preparing your targets:
 
-        [TBD]
+        None
 
 10. Video URL:
 
@@ -52,3 +52,6 @@
         [TBD]
 
 13. Asset sources:
+
+        FANTASTIC - Food Pack by Tidal Flask Studios
+        
