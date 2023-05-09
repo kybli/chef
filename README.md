@@ -48,6 +48,9 @@
         We would have liked to add more interactions and recipes to the similator,
         such as chopping, boiling and frying. These certainely would be the kinds of
         additions we would make in future updates with more time. 
+        
+        We wrote a Chop script, Chop.cs, which switches out the prefabs as they collide
+        with the knife
 
 12. Bugs in your code and in any system you used:
 
