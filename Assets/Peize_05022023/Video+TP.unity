@@ -16555,7 +16555,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh153460
+  m_Name: pb_Mesh307764
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -22612,7 +22612,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh116014
+  m_Name: pb_Mesh304534
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -30289,6 +30289,7 @@ GameObject:
   - component: {fileID: 7114770130576094539}
   - component: {fileID: 7114770130576094543}
   - component: {fileID: 1512150186}
+  - component: {fileID: 7114770130576094544}
   m_Layer: 0
   m_Name: wayfinding toggle
   m_TagString: Untagged
@@ -30386,6 +30387,27 @@ MonoBehaviour:
   _whenUnselectedEmpty:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &7114770130576094544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7114770130576094538}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb86ba9d4c5126e48bfef9b0c9550e9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactorFilters: []
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
+  _data: {fileID: 0}
+  _pointableElement: {fileID: 7114770130576094539}
+  _surface: {fileID: 1410754494932777068}
+  _selectSurface: {fileID: 0}
+  _movementProvider: {fileID: 0}
+  _tiebreakerScore: 0
 --- !u!222 &7156422395418166132
 CanvasRenderer:
   m_ObjectHideFlags: 0
