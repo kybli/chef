@@ -1674,7 +1674,7 @@ GameObject:
   - component: {fileID: 4888261210488260111}
   - component: {fileID: 4888261210488260110}
   m_Layer: 0
-  m_Name: GardenWayfindingArrows
+  m_Name: GardenWayfindingMarkers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

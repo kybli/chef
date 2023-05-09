@@ -421,7 +421,7 @@ GameObject:
   - component: {fileID: 4664698898893663088}
   - component: {fileID: 4664698898893662991}
   m_Layer: 0
-  m_Name: KitchenWayfindingArrows 1
+  m_Name: KitchenWayfindingMarkers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
