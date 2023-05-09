@@ -19,8 +19,8 @@ public class minimapPosition : MonoBehaviour
         transform.rotation = tracker.rotation * Quaternion.Euler(200f, 180f, 20f);
 
         if(offset > 0) {
-            transform.position = transform.position + (tracker.forward * 0.06f) + (tracker.up * 0.04f);
-            transform.rotation = tracker.rotation * Quaternion.Euler(200f, 10f, -20f);
+            transform.position = transform.position + (tracker.forward * 0.07f) + (tracker.up * 0.04f);
+            transform.rotation = tracker.rotation * Quaternion.Euler(200f, 12f, -20f);
         }
     }
 }
