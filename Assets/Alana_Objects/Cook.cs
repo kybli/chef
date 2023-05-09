@@ -11,13 +11,24 @@ public class Cook : MonoBehaviour
     public GameObject pan;
     private AudioSource audioSource;
 
+    [SerializeField]
+    private float t = 5;
+
+    private bool bCooking;
+
+    private void start ()
+    {
+        bCooking = false;
+    }
+
     private void Update ()
     {
         // check if everything is touching. If so, start cooking
         if (transform.GetComponent<Collider>().bounds.Intersects(pan.GetComponent<Collider>().bounds) &&
                 pan.GetComponent<Collider>().bounds.Intersects(stove.GetComponent<Collider>().bounds))
         {
-            StartCoroutine(SwitchToNewPrefab());
+            if (!bCooking)
+                StartCoroutine(SwitchToNewPrefab());
         }
 
 
@@ -25,13 +36,14 @@ public class Cook : MonoBehaviour
 
     private IEnumerator SwitchToNewPrefab()
     {
+        bCooking = true;
         // play the sizzling sound to show user it is cooking
         audioSource = gameObject.AddComponent<AudioSource>();
         audioSource.clip = sizzleSound;
         audioSource.Play();
         
         // wait for 5 seconds
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(t);
 
         audioSource.Stop();
         Destroy(audioSource);
