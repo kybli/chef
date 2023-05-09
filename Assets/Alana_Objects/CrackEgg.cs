@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Cook : MonoBehaviour
+public class CrackEgg : MonoBehaviour
 {
-    // reference to the prefab that we want to switch to
+ // reference to the prefab that we want to switch to
     public GameObject newPrefab;
     public AudioClip sizzleSound;
     public GameObject stove;
@@ -29,18 +29,17 @@ public class Cook : MonoBehaviour
         audioSource = gameObject.AddComponent<AudioSource>();
         audioSource.clip = sizzleSound;
         audioSource.Play();
-        
+
+        // switch to the cooked prefab
+        Instantiate(newPrefab, transform.position, transform.rotation);
+        Destroy(gameObject);
+
+                
         // wait for 5 seconds
         yield return new WaitForSeconds(5f);
 
         audioSource.Stop();
         Destroy(audioSource);
-
-        // new Vector3 (1.203f, 1.296f, 1.859f)
-
-        // switch to the cooked prefab
-        Instantiate(newPrefab, transform.position, transform.rotation);
-        Destroy(gameObject);
         
 
     }
