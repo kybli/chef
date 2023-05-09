@@ -45,11 +45,13 @@
 
 11. Missing features:
 
-        [TBD]
+        We would have liked to add more interactions and recipes to the similator,
+        such as chopping, boiling and frying. These certainely would be the kinds of
+        additions we would make in future updates with more time. 
 
 12. Bugs in your code and in any system you used:
 
-        [TBD]
+        One thing we noticed was that the pan shakes on the stove while cooking.
 
 13. Asset sources:
 
