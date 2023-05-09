@@ -50,7 +50,7 @@
         additions we would make in future updates with more time. 
         
         We wrote a Chop script, Chop.cs, which switches out the prefabs as they collide
-        with the knife
+        with the knife; however, we did not have time to add the chopped prefabs in.
 
 12. Bugs in your code and in any system you used:
 
